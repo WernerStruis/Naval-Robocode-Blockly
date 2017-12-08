@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="nl">
+<meta charset="utf-8">
+<meta name="google" value="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Naval Robocode Blockly</title>
+
+<script src="lib/google-blockly-2fae551/blockly_compressed.js"></script>
+<!--<script src="lib/google-blockly-2fae551/blockly_uncompressed.js"></script>-->
+<script src="lib/google-blockly-2fae551/blocks_compressed.js"></script>
+<script src="lib/google-blockly-2fae551/msg/messages.js"></script>
+<!--<script src="../lib/google-blockly-2fae551/msg/js/en.js"></script>-->
+<!--<script src="assets/blockly/msg/messages.js"></script>-->
+
+
+<!-- jQuery .js -->
+<script src="lib/jQuery-3.2.1/jquery-3.2.1.min.js"></script>
+
+<!-- bootstrap .js -->
+<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/js/menu-touch.js"></script>
+
+
+<!-- translate JS -->
+<!--<script src="assets/js/code.js"></script>-->
+
+<!-- bootstrap .css -->
+<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!-- main styles -->
+<link href="assets/css/style.css" rel="stylesheet">
+
+<!-- blockly js -->
+<script src="assets/blockly/extensions.js"></script>
+<script src="assets/blockly/validators.js"></script>
+<script src="assets/blockly/constants.js"></script>
+<script src="assets/blockly/mutators.js"></script>
+<script src="assets/blockly/arrays.js"></script>
+
+<!--blockly generators -->
+<script src="assets/blockly/generators/java.js"></script>
+
+
+<style>
+    .eventLabel > .blocklyFlyoutLabelText {
+        font-size: 20px;
+    }
+</style>
+
+</head>
+<body onload="load()">
+
+<div id="main" class="wrapper">
+
+    <!-- main blockly div (filled in by JS) -->
+    <div id="blocklyDiv" style="width:100%; height: 100%;">
+
+    </div>
+
+    <!-- Blockly menu toolbox -->
+    <xml id="toolbox-beginner" style="display: none">
+        <category name="%{BKY_CATMAIN}">
+            <block type="exec"></block>
+            <block type="main"></block>
+        </category>
+        <category name="%{BKY_CATMOVEMENT}">
+            <block type="mvforward"></block>
+            <block type="mvbackward"></block>
+            <block type="trright"></block>
+            <block type="trleft"></block>
+        </category>
+        <sep></sep>
+        <category name="%{BKY_CATSLOTS}">
+            <category name="Slot 1" class="slot1" custom="SLOT1">
+                <block type="slot1"></block>
+            </category>
+            <category name="Slot 2" class="slot2" custom="SLOT2">
+                <block type="slot2"></block>
+            </category>
+            <category name="Slot 3" class="slot3" custom="SLOT3">
+                <block type="slot3"></block>
+            </category>
+            <category name="Slot 4" class="slot4" custom="SLOT4">
+                <block type="slot4"></block>
+            </category>
+        </category>
+        <sep></sep>
+        <category name="%{BKY_CATEVENTS}">
+            <category name="%{BKY_CATSCANNEDSHIP}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="oscanned"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gheading"></block>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+                <sep gap="10"></sep>
+                <block type="gvelocity"></block>
+                <sep gap="10"></sep>
+                <block type="gdistance"></block>
+            </category>
+            <category name="%{BKY_CATHITROBOT}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="ohitrobot"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+            </category>
+            <category name="%{BKY_CATHITWALL}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="ohitwall"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+            </category>
+        </category>
+
+        <sep></sep>
+        <category name="%{BKY_CATLOGIC}">
+            <block type="controls_if"></block>
+            <block type="compare"></block>
+            <block type="operation"></block>
+        </category>
+        <category name="%{BKY_CATUTILLITIES}">
+            <block type="String"></block>
+            <block type="int"></block>
+            <block type="angle"></block>
+        </category>
+    </xml>
+    <!-- Blockly menu toolbox -->
+    <xml id="toolbox-intermediate" style="display: none">
+        <category name="%{BKY_CATMAIN}">
+            <label class="methods" text="Main_Loop" id="mainloop" web-class="eventLabel"></label>
+            <block type="main">
+            </block>
+
+            <label id="execute" text="Execute" web-class="eventLabel"></label>
+            <block type="exec"></block>
+        </category>
+        <category name="%{BKY_CATMOVEMENT}">
+            <label class="methods" text="Methods" web-class="eventLabel"></label>
+            <block type="mvforward"></block>
+            <sep gap="10"></sep>
+            <block type="mvbackward"></block>
+            <sep gap="10"></sep>
+            <block type="trright"></block>
+            <sep gap="10"></sep>
+            <block type="trleft"></block>
+            <label class="getters" text="Getters" web-class="eventLabel"></label>
+            <block type="gdistanceremaining"></block>
+            <sep gap="10"></sep>
+            <block type="gbodyturnremaining"></block>
+            <sep gap="10"></sep>
+            <block type="gbodyheading"></block>
+        </category>
+        <sep></sep>
+        <category name="%{BKY_CATSLOTS}">
+            <category name="Slot 1" class="slot1" custom="SLOT1">
+                <block type="slot1"></block>
+            </category>
+            <category name="Slot 2" class="slot2" custom="SLOT2">
+                <block type="slot2"></block>
+            </category>
+            <category name="Slot 3" class="slot3" custom="SLOT3">
+                <block type="slot3"></block>
+            </category>
+            <category name="Slot 4" class="slot4" custom="SLOT4">
+                <block type="slot4"></block>
+            </category>
+        </category>
+        <sep></sep>
+        <category name="%{BKY_CATEVENTS}">
+            <category name="%{BKY_CATSCANNEDSHIP}">
+                <label class="event" class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="oscanned"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gheading"></block>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+                <sep gap="10"></sep>
+                <block type="gvelocity"></block>
+                <sep gap="10"></sep>
+                <block type="gdistance"></block>
+            </category>
+            <category name="%{BKY_CATSCANNEDMISSILE}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="oscannedmissile"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gheading"></block>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+                <sep gap="10"></sep>
+                <block type="gvelocity"></block>
+                <sep gap="10"></sep>
+                <block type="gdistance"></block>
+            </category>
+            <category name="%{BKY_CATHITROBOT}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="ohitrobot"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+            </category>
+            <category name="%{BKY_CATHITWALL}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="ohitwall"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+            </category>
+            <category name="%{BKY_CATHITBYBULLET}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="ohitbybullet"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gheading"></block>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+                <sep gap="10"></sep>
+                <block type="gvelocity"></block>
+                <sep gap="10"></sep>
+                <block type="gdistance"></block>
+            </category>
+            <category name="%{BKY_CATHITBYMISSILE}">
+                <label class="event" text="Event" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="ohitbymissile"></block>
+                <sep gap="35"></sep>
+                <label class="eventdata" text="Event Data" web-class="eventLabel"></label>
+                <sep gap="10"></sep>
+                <block type="gheading"></block>
+                <sep gap="10"></sep>
+                <block type="gbearing"></block>
+                <sep gap="10"></sep>
+                <block type="gname"></block>
+                <sep gap="10"></sep>
+                <block type="gvelocity"></block>
+                <sep gap="10"></sep>
+                <block type="gdistance"></block>
+            </category>
+        </category>
+        <sep></sep>
+        <category name="%{BKY_CATLOGIC}">
+            <label id="logicblocks" text="Logic Blocks" web-class="eventLabel"></label>
+            <sep gap="10"></sep>
+            <block type="controls_if"></block>
+            <sep gap="10"></sep>
+            <block type="controls_for"></block>
+            <sep gap="10"></sep>
+            <block type="controls_whileUntil"></block>
+            <label id="logicutilities" text="Logic utilities" web-class="eventLabel"></label>
+            <sep gap="10"></sep>
+            <block type="compare"></block>
+            <sep gap="10"></sep>
+            <block type="operation"></block>
+        </category>
+        <category name="%{BKY_CATUTILLITIES}">
+            <label id="strings" text="Strings" web-class="eventLabel"></label>
+            <block type="String"></block>
+
+            <sep gap="35"></sep>
+
+            <label id="math" text="Math" web-class="eventLabel"></label>
+            <block type="int"></block>
+            <sep gap="10"></sep>
+            <block type="arithmetic"></block>
+            <sep gap="10"></sep>
+            <block type="angle"></block>
+
+            <sep gap="35"></sep>
+
+            <label id="special" text="Special" web-class="eventLabel"></label>
+            <block type="boolean"></block>
+        </category>
+        <sep></sep>
+        <category name="%{BKY_CATVARIABLES}" custom="TYPED_VARIABLES">
+        </category>
+    </xml>
+
+</div>
+
+<!-- overlay menu -->
+<div class="float-right" id="main-menu">
+    <!--<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="mainDropdown">-->
+        <button class="btn btn-warning top-btn" onclick="startRobocode()" data-tag="test">Test  <i class="glyphicon glyphicon-dashboard"></i> </button>
+        <button class="btn btn-success top-btn" style="margin-right: 10px" onclick="generate(true)" data-tag="deploy">Deploy  <i class="glyphicon glyphicon-bullhorn"></i> </button>
+    <!--</ul>-->
+    <div class="dropdown">
+        <button class="btn btn-lg btn-primary dropdown-toggle" type="button" id="mainDropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <!--<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="mainDropdown">-->
+            <!--<button class="btn btn-warning top-btn">Test</button>-->
+            <!--<button class="btn btn-success top-btn">Deploy</button>-->
+        <!--</ul>-->
+        <ul class="dropdown-menu dropdown-menu-right" id="main-menu-ul" aria-labelledby="mainDropdown">
+            <!--<li><a onclick="generate()" data-tag="generate"> Generate </a></li>-->
+            <li><a onclick="load()" data-tag="sample"> LoadXML </a></li>
+            <!--<li><a href="#" onclick="validate()"> Validate </a></li>-->
+            <li role="seperator" class="divider"></li>
+            <li><a onclick="save()" data-tag="save"> Save </a></li>
+            <li class="dropdown-submenu">
+                <a tabindex="-1" onmouseover="loadList()" onclick="$(event).preventDefault" data-tag="load">Load<span
+                        class="glyphicon glyphicon-triangle-left" style="color: #474747"></span></a>
+                <ul id="shipLoadList" class="dropdown-menu">
+
+                </ul>
+            </li>
+            <li role="seperator" class="divider"></li>
+            <!--<li class="dropdown-submenu">-->
+                <!--<a tabindex="-1" href="#" data-tag="xml">XML<span class="glyphicon glyphicon-triangle-left"-->
+                                                                  <!--style="color: #474747"></span></a>-->
+                <!--<ul class="dropdown-menu">-->
+                    <!--<li><a id="btn-xml" data-tag="exportXML" href="#" onclick="toXml()"> Export to XML </a></li>-->
+                    <!--<li><a href="#" data-toggle="modal" data-target="#xmlImportModal" data-tag="importXML"> Import from-->
+                        <!--XML </a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li role="seperator" class="divider"></li>-->
+            <li class="dropdown-submenu">
+                <a tabindex="-1" href="#" id="llsettings">Settings<span class="glyphicon glyphicon-triangle-left"
+                                                                        style="color: #474747"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a id="lllanguage" href="#" onclick="$('#languagemodal').modal()" data-tag="language">
+                        Language </a></li>
+                    <li><a href="#" onclick="window.location.replace('index.html?lang=' + getLang());" data-tag="exit">
+                        Exit </a></li>
+                </ul>
+            </li>
+            <li role="seperator" class="divider"></li>
+            <li class="item-delete">
+                <a class="btn btn-danger" id="dropdown-delete" onclick="reset()" data-tag="reset">reset</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+<script src="assets/js/blockly/blockly.js"></script>
+<script src="assets/blockly/variables.js"></script>
+<script src="assets/js/blockly/APIManager.js"></script>
+<script src="assets/js/blockly/loading.js"></script>
+<script src="assets/js/blockly/dynamic_toolbox.js"></script>
+<script src="assets/js/translate.js"></script>
+<!--<script src="../assets/js/language.js"></script>-->
+
+<script src="assets/js/translate.js"></script>
+<script src="assets/js/language.js"></script>
+<script>
+    //    $(document).ready(function () {
+    //        initLanguage();
+    //    });
+    function load() {
+
+    }
+</script>
+<!-- import from xml modal -->
+<!-- Modal -->
+<div class="modal fade" id="xmlImportModal" tabindex="-1" role="dialog" aria-labelledby="xmlImportLabel"
+     data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="hideModal()" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="xmlImportLabel" data-tag="importXML">Import from XML</h4>
+
+                <p data-tag="importXMLdescription">Description.... (?)</p>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" id="import-form-group">
+                    <label for="importXML">XML:</label>
+                    <textarea class="form-control" rows="10" id="importXML"
+                              style="max-width: 100%; min-width: 100%"></textarea>
+                    <span id="importHelpBlock" class="help-block" style="display: none" data-tag="importXMLerror">The xml-format to import is invalid, please check and try again</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" onclick="hideModal()" data-dismiss="modal"
+                        data-tag="cancel">Cancel
+                </button>
+                <button type="button" class="btn btn-primary" onclick="importXML()" data-tag="import">Import</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal containing validation errors or other items -->
+<div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertLabel" data-keyboard="false"
+     data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="hideModal()" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="alertLabel">Import from XML</h4>
+
+                <p id="alertDescription">Description.... (?)</p>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" id="alert-form-group">
+                    <textarea class="form-control" id="alertContentCopyable" rows="10"
+                              style="max-width: 100%; min-width: 100%; display: none"></textarea>
+                </div>
+                <ul class="list-group" id="alertContentList" style="display: none">
+                    <li class="list-group-item">Cras justo <br>odio</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" data-tag="close">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="languagemodal" tabindex="-1" role="dialog" aria-labelledby="alertLabel">
+    <div class="modal-dialog" role="document" style="margin: 20% auto">
+        <div class="modal-content">
+            <div class="modal-body">
+                <select class="form-control" id="languageMenu"></select>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="remote_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document" style="margin: 15% auto">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" data-tag="remoteTitle">Your ship is ready to go!</h4>
+            </div>
+            <div class="modal-body">
+                <p data-tag="remoteDescription">Your ship is compiled and ready to go! <br> Do you want to send this
+                    ship to a remote?</p>
+
+                <form>
+                    <div class="row">
+                        <div class="col-md-8 form-group">
+                            <label for="publish-ip" class="control-label">Ip-adress:</label>
+                            <input type="text" class="form-control" id="publish-ip">
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label for="publish-ip" class="control-label">Port:</label>
+                            <input type="text" class="form-control" id="publish-port">
+                        </div>
+                    </div>
+                    <p id="publish-code" style="display: none"></p>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p class="danger" id="send-error" style="float: left; color: #a94442;">Test test</p>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" data-tag="cancel">Cancel</button>
+                <button type="button" class="btn btn-success" onclick="send()" data-tag="send">Send</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<div class="loading" id="loadingOverlay" style="width: 200px; text-align: center">
+    <img src="assets/images/Blockly-logo.png">
+
+    <p data-tag="loading">Loading</p>
+
+    <div class="progress" style="width: 100%">
+        <div class="progress-bar progress-bar-striped active" id="loadingProgress" role="progressbar" aria-valuenow="45"
+             aria-valuemin="0" aria-valuemax="100">
+        </div>
+    </div>
+</div>
+
+<div id="error-messages" style="display: none">
+    <span data-tag="confirm-reset"></span>
+    <span data-tag="generateErrorTitle"></span>
+    <span data-tag="generateErrorDescription"></span>
+    <span data-tag="generateTitle"></span>
+    <span data-tag="generateDescription"></span>
+    <span data-tag="generateXMLTitle"></span>
+    <span data-tag="generateXMLDescription"></span>
+    <span data-tag="clear"></span>
+    <span data-tag="confirm-delete"></span>
+
+</div>
+<!-- blockly scripts -->
+</body>
+</html>

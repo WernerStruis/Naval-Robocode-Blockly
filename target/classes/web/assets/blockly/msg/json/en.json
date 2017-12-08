@@ -1,0 +1,100 @@
+{
+  "apiSelectTitle": "Select API",
+  "apiSelectDescription": "Select the API that you want to use:",
+  "apiBeginnerTitle": "Beginner",
+  "apiBeginnerDescription": "This API is for our youngest audience. <br>Help is offered for the hardest aspects of deloping a ship, but all behaviours are up to you!<br><br>",
+  "apiIntermediateTitle": "Intermediate",
+  "apiIntermediateDescription": "This API is for our more advanced users. There still is no need to write any code, but the logic just got a bit harder!<br><br>",
+  "apiDifficulty": "Difficulty",
+  "apiFun": "Fun",
+  "apiPossibilities": "Possibilities",
+  "apiSelected": "selected <span id='selectedAPI'>None</span>",
+  "apiError": "You need to choose an API to continue.",
+
+
+
+  "ll1title": "Choose your ship",
+  "ll1description": "Before you can start programming, you need to select a ship. You can selet one of the ships below by clicking on the card.",
+  "ll2title": "Configure your ship",
+  "ll2description": "You can now start configuring your ship. <br> To do this, place components from the list below on all spots marked ret. <br> <b>TIP:</b> if you want to remove an component, double click.",
+  "ll3title": "Almost done!",
+  "ll3description": "To finalize your ship, please fill in the following fields: ",
+  "ll4title": "All set!",
+  "ll4description": "You have successfully completed all steps <br> lets get started coding your ship!",
+
+  "next-step": "Next",
+  "prev-step": "Prev",
+
+  "shipattspeed": "speed",
+  "shipattturnspeed": "Turn speed",
+  "shipattenergy": "Energy",
+  "shipattcomponents": "Components",
+
+  "ll1selected": "selected <span id='selectedShip'>None</span>",
+  "ll2selected": "selected <span id='selectedShip'>None</span>",
+
+  "cannon": "Cannon",
+  "radar": "Radar",
+  "special": "Special",
+  "doublebarrel": "Double Barrel",
+  "singlebarrel": "Single Barrel",
+  "shortrange": "Short Range",
+  "longrange": "Long Range",
+  "minecomponent": "Mine placer",
+  "missilecomponent": "Missile launcher",
+
+  "config-shipname": "Your ship name:",
+  "config-shippackage": "Your ship package:",
+  "config-shiptype": "Ship Type",
+  "config-components": "Components",
+  "config-slot-1": "Slot 1",
+  "config-slot-2": "Slot 2",
+  "config-slot-3": "Slot 3",
+  "config-slot-4": "Slot 4",
+
+  "startbtn": "Start",
+
+  "error-shiptype": "Please select a ship type to continue please",
+  "error-components": "One or more components have not been set yet, please fix and continue.",
+  "error-fields": "One or more field are still empty, please fix and continue.",
+  "error-shipname": "ShipName is empty or invalid, please fix and continue.",
+  "error-shippackage": "ShipPackage is empty or invalid, please fix and continue.",
+
+
+  "importXML": "Import from XML",
+  "importXMLdescription": "Import your Blockly ship by placing the workspace XML here and pressing 'import'. <br> You can get this code by pressing 'export to XML' in the menu.",
+  "importXMLerror": "The xml-format to import is invalid, please check and try again",
+
+  "cancel": "Cancel",
+  "import": "Import",
+  "close": "Close",
+  "generate": "Generate",
+  "sample": "Load sample",
+  "xml": "XML",
+  "importXML": "import from XML",
+  "exportXML": "export to XML",
+  "save": "Save",
+  "load": "Load",
+  "reset": "Reset",
+  "language": "Language",
+  "loading": "Loading...",
+  "clear": "Clear",
+  "clear": "Clear",
+  "exit": "Exit",
+  "send": "Send",
+
+  "generateXMLTitle": "This is your ship in XML",
+  "generateXMLDescription": "You can use this XML code to import your ship in another application using the 'Import from XML button'.",
+  "generateErrorTitle": "There are some errorssss",
+  "generateErrorDescription": "There are some errors in your program, you can see them below. <br> Please fix these to continue.",
+  "generateTitle": "This is your ship",
+  "generateDescription": "This is the code of your ship. what you need to do, place this code in a file, named just like your ship and place the file in a package, named just like the package you have set in the wizard.",
+  "block": "Block: ",
+  "reason": "Reason: ",
+
+  "confirm-reset": "Are you sure you wish to reset the workspace? \nChanges will be lost",
+  "fullscreenTitle": "Please press F11 to enter full screen",
+  "remoteTitle": "Your ship is ready to go!",
+  "remoteDescription": "Your ship is compiled and ready to go! \nWhere do you want your ship te be send to?"
+
+}

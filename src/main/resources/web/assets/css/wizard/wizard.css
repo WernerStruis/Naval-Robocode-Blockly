@@ -1,0 +1,240 @@
+@import "selectShip.css";
+@import "setComponents.css";
+@import "summary.css";
+
+body, html{
+    overflow: hidden;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently*/
+}
+
+.nodrag{
+user-drag: none;
+user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.loading{
+    z-index: 2000;
+}
+.loading:before{
+    background-color: rgba(0, 0, 0, 0.78);
+}
+.loading h1{
+    color: #fff;
+    position: absolute;
+}
+.wizard {
+    /*margin: 20px auto;*/
+    background: #fff;
+}
+
+.col-md-2 .next-step, .col-md-2 .prev-step{
+    margin-top: 45px;
+}
+.next-step{
+    float: right;
+}
+.prev-step{
+    float: left;
+}
+
+.bg-white{
+    background: #fff;
+}
+
+.wizard .wizard-inner .nav-tabs {
+    position: relative;
+    /*margin: 40px auto 0;*/
+    border-bottom-color: #e0e0e0;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+}
+
+.connecting-line {
+    height: 2px;
+    background: #e3e3e3;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+/* progress line */
+.current{
+    height: 2px;
+    background: #337ab7;
+    position: absolute;
+    width: 10%;
+    margin: 0 auto;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+.current.progressOne{
+    width: 40%;
+}
+.current.progressTwo{
+    width: 60%;
+}
+.current.progressThree{
+    width: 90%;
+}
+.finished a span.round-tab{
+    border-color: #62de8f;
+}
+.wizard .wizard-inner .nav-tabs > li.active > a, .wizard .wizard-inner .nav-tabs > li.active > a:hover, .wizard .wizard-inner .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard .wizard-inner li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #337ab7;
+
+}
+.wizard .wizard-inner li.active span.round-tab i{
+    color: #337ab7;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .wizard-inner .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard .wizard-inner li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #337ab7;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard .wizard-inner li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #337ab7;
+}
+
+.wizard .wizard-inner .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wizard .wizard-inner .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .wizard-inner .tab-pane {
+    position: relative;
+    /*padding-top: 50px;*/
+}
+
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .wizard-inner .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .wizard-inner li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+/*
+tab content
+*/
+.wizard .form .tab-content{
+    padding: 0px 20px 20px 20px;
+}
+.tab-content{
+    padding: 20px;
+}
+.tab-pane .info{
+    text-align: center;
+}
+
+
+/*
+finished tab
+*/
+#finished{
+    text-align: center;
+    margin: 20%;
+    font-weight: 600;
+}
+
+/*
+Error alert
+*/
+#error{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+#error .alert{
+    margin-bottom: 0;
+}

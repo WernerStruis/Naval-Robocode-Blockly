@@ -1,0 +1,5 @@
+vertx/Runner.class
+io/vertx/blockly/webapp/TransferThread.class
+io/vertx/blockly/webapp/BlocklyServer.class
+io/vertx/blockly/webapp/ShipCompiler.class
+NavalRobocode/NavalRobocode.class

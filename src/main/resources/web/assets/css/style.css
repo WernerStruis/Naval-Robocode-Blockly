@@ -1,0 +1,219 @@
+@import "../fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+/**
+Base styles
+*/
+body {
+    margin: 0;
+}
+
+#main.wrapper, body, html {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    z-index: 100;
+}
+
+/**
+Overlay styles
+*/
+
+/* Dropdown menu */
+.dropdown-menu.dropdown-menu-right {
+    margin-top: 20px;
+}
+
+.dropdown-menu.dropdown-menu-left {
+    position: relative;
+    top: -5px;
+    left: -20px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+#main-menu {
+    z-index: 3000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px 20px 0 0;
+    display: flex;
+}
+
+.top-btn {
+    margin: 5px 7px;
+    border-radius: 20px;
+}
+
+.item-delete {
+    padding: 3px 20px;
+}
+
+.dropdown-toggle {
+    border-radius: 50%;
+}
+
+#dropdown-delete {
+    width: 100%;
+    color: #fff;
+}
+
+#dropdown-delete:hover {
+    color: #000;
+}
+
+.dropdown-toggle[aria-expanded="true"] i {
+    transform: rotate(90deg);
+}
+
+.dropdown-toggle i {
+    transition-duration: 0.8s;
+    transition-property: transform;
+    transform: rotate(0deg);
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+#shipLoadList {
+    margin-left: -48px;
+}
+
+#shipLoadList .list-group-item {
+    display: flex;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: -100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.caret-left {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-right: 4px solid;
+    display: inline-block;
+    height: 0;
+    opacity: 0.3;
+    vertical-align: middle;
+    width: 0;
+}
+
+.blocklyToolboxDiv {
+    width: 220px;
+    z-index: 110;
+}
+
+.blocklyToolboxDiv img, #flyoutLogo {
+    max-width: 100%;
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#flyoutLogo {
+    z-index: 200;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+    transform: translate(-200px, 0px);
+}
+
+.blocklyFlyout, .blocklyFlyout .blocklyWorkspace, .blocklyFlyoutBackground {
+    min-width: 200px;
+}
+
+.blocklyToolboxDiv, .blocklyFlyout, #flyoutLogo, #returnFlyoutBtn {
+    transition: transform 0.5s ease-in-out, display 0.5s ease-in-out;
+}
+
+.blocklyFlyout {
+    top: 0;
+    left: 0;
+    transform: translate(-200px, 0px);
+    display: block !important;
+    z-index: 150;
+}
+
+#returnFlyoutBtn {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 200;
+    transform: translate(-200px, 0px);
+}
+
+.blocklyFlyoutBackground {
+    transform: scale(2, 2);
+}
+
+/*.dropdown-submenu.pull-left {*/
+/*float: none;*/
+/*}*/
+
+/*.dropdown-submenu.pull-left>.dropdown-menu {*/
+/*left: -100%;*/
+/*margin-left: 10px;*/
+/*-webkit-border-radius: 6px 0 6px 6px;*/
+/*-moz-border-radius: 6px 0 6px 6px;*/
+/*border-radius: 6px 0 6px 6px;*/
+/*}*/
+/**
+Blockly styles
+*/
+
+/* Absolute Center Spinner */
+.loading {
+    position: fixed;
+    z-index: 1999;
+    height: 2em;
+    width: 2em;
+    /*overflow: show;*/
+    margin: auto;
+    top: -15em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading img {
+    max-width: 200%;
+    position: relative;
+    left: -50%;
+}
+
+.loading .progress {
+    position: absolute;
+}
+
+/* Transparent Overlay */
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
