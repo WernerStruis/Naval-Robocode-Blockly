@@ -1,28 +1,60 @@
 package NavalRobocode;
 
+import net.sf.robocode.BlocklyCallbacks.BlocklyCallBacks;
 import net.sf.robocode.core.Main;
 import net.sf.robocode.io.FileUtil;
+import net.sf.robocode.repository.IRobotSpecItem;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by dp038 on 12/5/17.
  */
-public class NavalRobocode implements Runnable{
+public class NavalRobocode implements BlocklyCallBacks{
+    private Main main;
+    private Thread robocodeThread;
 
-    public NavalRobocode(){
-//        System.getProperties().setProperty("robocode.class.path", System.getProperties().getProperty("robocode.class.path") + "!/net/sf/robocode");
-//        System.getProperties().setProperty("robocode.class.path", NavalRobocode.class.getResource("robocode.jar").getPath());
-//        System.getProperties().setProperty("robocode.class.path", "TEST");
+    public NavalRobocode(boolean visible){
+        String[] args;
+
+        if(visible) {
+            args = new String[0];
+        }else{
+            args = new String[1];
+            args[0] = "-nodisplay";
+        }
+        main = new Main(args, this);
+
+        //set classpath
+        String cp = new File("").getAbsolutePath();
+        main.setClassPath(cp);
+
+        //initialize thread
+        robocodeThread = new Thread(main);
 
     }
-    public void startRobocode(){
-        String[] args = new String[0];
-        Main m = new Main();
-        String cp = new File("").getAbsolutePath();
-        System.out.println(cp);
-        m.setClassPath(cp);
-        m.run(args);
+
+    public void start(){
+        robocodeThread.setDaemon(true);
+        robocodeThread.start();
+    }
+
+    public void setVisisble(boolean visible){
+        main.showRobocode(visible);
+    }
+
+
+    public List<String> getRobotList(){
+        List<IRobotSpecItem> robots = main.getRobotList();
+        List<String> robotStrings = new ArrayList<>();
+
+        for(IRobotSpecItem item : robots){
+            robotStrings.add(item.getFullClassName());
+        }
+
+        return robotStrings;
     }
 
     public static File getRobotsDir(){
@@ -30,8 +62,14 @@ public class NavalRobocode implements Runnable{
     }
 
 
+//    @Override
+//    public void run() {
+//        start();
+//    }
+
     @Override
-    public void run() {
-        startRobocode();
+    public void exit() {
+        System.out.println("EXIT");
+        Thread.currentThread().interrupt();
     }
 }

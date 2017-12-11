@@ -1,4 +1,4 @@
-package vertx;
+package io.vertx.blockly.webapp.vertx;
 
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;

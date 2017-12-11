@@ -1,4 +1,4 @@
-package io.vertx.blockly.webapp;
+package io.vertx.blockly.webapp.Compiler;
 
 import NavalRobocode.NavalRobocode;
 
