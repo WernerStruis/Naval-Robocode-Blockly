@@ -154,10 +154,6 @@ Blockly.Blocks['fire'] = {
                 "type": "input_value",
                 "name": "SLOT",
                 "check": "slot"
-            }, {
-                "type": "field_number",
-                "name": "POWER",
-                "value": 1
             }],
             "inputsInline": true,
             "colour": Blockly.Msg.SLOTACTION_HUE,

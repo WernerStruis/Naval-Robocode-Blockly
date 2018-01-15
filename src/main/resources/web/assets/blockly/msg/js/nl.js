@@ -139,7 +139,7 @@ Blockly.Msg.ATTO_TOOLTIP = "";
 Blockly.Msg.ATRLEFT_TITLE = "Draai %1 links met hoek: %2";
 Blockly.Msg.ATRLEFT_TOOLTIP = "";
 
-Blockly.Msg.FIRE_TITLE = "Vuur  %1 met kracht %2";
+Blockly.Msg.FIRE_TITLE = "Vuur  %1";
 Blockly.Msg.FIRE_TOOLTIP="";
 
 Blockly.Msg.LAUNCH_TITLE = "Lanceer %1 met kracht %2";

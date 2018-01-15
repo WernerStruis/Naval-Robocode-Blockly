@@ -1,13 +1,17 @@
 package io.vertx.blockly.webapp;
 
-
-import io.vertx.blockly.webapp.Routes.NavalRoutes;
-import io.vertx.blockly.webapp.Routes.Routes;
+import NavalRobocode.RobocodeManager;
+import io.vertx.blockly.webapp.Routes.BlocklyRoutes;
+import io.vertx.blockly.webapp.Routes.RoboRoutes;
+import io.vertx.blockly.webapp.vertx.RequestHandler;
+import io.vertx.blockly.webapp.vertx.WebSocketHandler;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
-
+import io.vertx.core.http.HttpMethod;
+import io.vertx.core.http.HttpServer;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
+import io.vertx.ext.web.handler.CorsHandler;
 import io.vertx.ext.web.handler.StaticHandler;
 import io.vertx.blockly.webapp.vertx.Runner;
 
@@ -20,35 +24,29 @@ import java.net.URISyntaxException;
 /**
  * Created by do601 on 3/17/17.
  */
-public class Server extends AbstractVerticle implements Runnable{
+public class Server extends AbstractVerticle implements Runnable {
 
-    public static void main(String[] args) {
-        Runner.runExample(Server.class);
-    }
+    private RobocodeManager manager;
 
-    public void run(){
-        Runner.runExample(Server.class);
-    }
+    private RequestHandler rqHandler;
+    private WebSocketHandler wsHandler;
 
     @Override
     public void start(Future<Void> fut) {
-        System.out.println("server started");
-
-
         Router router = Router.router(vertx);
         router.route().handler(BodyHandler.create());
-
-
-//        router.route().handler(CorsHandler.create("*")
-//                .allowedMethod(HttpMethod.POST)
-//                .allowedMethod(HttpMethod.GET)
-//                .allowedMethod(HttpMethod.OPTIONS)
-//                .allowedHeader("Content-Type"));
+        router.route().handler(CorsHandler.create("*")
+                .allowedMethod(HttpMethod.GET)
+                .allowedMethod(HttpMethod.POST)
+                .allowedMethod(HttpMethod.OPTIONS)
+                .allowedHeader("X-PINGARUNER")
+                .allowedHeader("Content-Type"));
 
         router.route("/web/*").handler(StaticHandler.create("web"));
 
-        Routes r = new Routes(router);
-        NavalRoutes nr = new NavalRoutes(router);
+        //initialize robocode manager
+        manager = new RobocodeManager();
+        manager.start();
 
         //start server
         createServer(router, fut);
@@ -59,6 +57,8 @@ public class Server extends AbstractVerticle implements Runnable{
 //            e.printStackTrace();
 //        }
     }
+
+
 
     public void openBrowser() throws IOException {
         String os = System.getProperty("os.name").toLowerCase();
@@ -78,18 +78,23 @@ public class Server extends AbstractVerticle implements Runnable{
     }
 
     public void createServer(Router router, Future<Void> fut) {
-        vertx.createHttpServer().requestHandler(router::accept).listen(
-                config().getInteger("http.port", 8080),
-                result -> {
-                    if (result.succeeded()) {
-                        fut.complete();
-                    } else {
-                        fut.fail(result.cause());
-                    }
-                }
-        );
+        HttpServer server = vertx.createHttpServer();
+
+        wsHandler = new WebSocketHandler(server, manager);
+        wsHandler.createWebSocketHandler();
+
+        rqHandler = new RequestHandler(server, manager);
+        rqHandler.createRequestHandler(config(), fut, router);
+        rqHandler.setRoutes();
     }
 
+    public static void main(String[] args) {
+        Runner.runExample(Server.class);
+    }
+
+    public void run() {
+        Runner.runExample(Server.class);
+    }
 
 }
 

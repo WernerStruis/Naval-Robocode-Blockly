@@ -145,9 +145,9 @@ Overlay styles
 .blocklyFlyout {
     top: 0;
     left: 0;
-    transform: translate(-200px, 0px);
-    display: block !important;
+    transform: translate(-300px, 0px);
     z-index: 150;
+    display: block !important;
 }
 
 #returnFlyoutBtn {

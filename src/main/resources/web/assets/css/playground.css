@@ -1,0 +1,226 @@
+html, body, #Main, #Main .container-fluid {
+    height: 100%;
+    overflow: hidden;
+    background-color: #606060;
+}
+
+.section {
+    border: 1px solid #525252;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.column {
+    height: 100%;
+}
+
+#robocodeContainer {
+    /*height: 600px;*/
+    border-left: none;
+    border-right: none;
+}
+.button-row{
+
+}
+.button-row ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 3px;
+}
+.button-row .col-md-1, .button-row .col-md-10{
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+
+.row.button-row {
+    /*height: 5%*/
+    background: linear-gradient(to bottom, #7c7c7c 0%, #a5a5a5 50%, #7c7c7c 100%);
+
+}
+
+.row.content {
+    height: 96%;
+}
+
+/* Start new battle modal */
+#startNewBattleModal .modal-dialog {
+    width: 1000px;
+}
+
+#selectOpponents, #selectedOpponents {
+    width: 98%;
+    /*border-radius: 10px;*/
+    margin: 2px;
+}
+
+.selectionContainer {
+    /*background-color: #337ab7;*/
+    padding: 3px;
+    border: 1px solid #e3e3e3;
+    /*border-radius: 10px;*/
+    margin: 5px 0;
+}
+.selectionContainer select{
+    color: #6b6b6b;
+}
+.selectionContainer select option[disabled] {
+    color: #6b6b6b;
+    font-weight: 600;
+}
+
+#selectActionRow {
+    margin: 0;
+}
+
+.btn-row .btn {
+    width: 100%;
+}
+
+.btn{
+    border-radius: 0;
+}
+.btn-success{
+    background: linear-gradient(to bottom, #398439 0%, #429a42 50%, #398439 100%);
+}
+.btn-success:hover{
+    background: linear-gradient(to bottom, #398439 0%, #2d692d 50%, #398439 100%);
+    border: 1px solid #2d692d;
+}
+.btn-danger{
+    background: linear-gradient(to bottom, #843534 0%, #9f403f 50%, #843534 100%);
+}
+.btn-danger:hover{
+    background: linear-gradient(to bottom, #843534 0%, #7d3232 50%, #843534 100%);
+    border: 1px solid #6a2a2a;
+
+}
+.btn-default{
+    background: linear-gradient(to bottom, #656565 0%, #cecece 50%, #656565 100%);
+    border: 1px solid #525252;
+}
+.btn-default:hover{
+    background: linear-gradient(to bottom, #8b8b8b 0%, #818181 50%, #8b8b8b 100%);
+    border: 1px solid #525252;
+    color: white;
+}
+
+
+/* WIDGETS */
+.widget {
+    width: 100%;
+    display: table;
+    /*border: 3px solid #787878;*/
+}
+
+.widget-container {
+    height: inherit;
+    background-color: #787878;
+    color: #e3e3e3;
+    border: 3px solid #525252;
+}
+
+.widget-title {
+    padding: 1em;
+    background: linear-gradient(to bottom, #7c7c7c 0%, #a5a5a5 50%, #7c7c7c 100%);
+    border-bottom: 3px solid #525252;
+}
+
+.widget-content {
+    border: 3px solid #787878;
+    padding: 3px;
+    background-color: #606060;
+}
+
+.widget-title h4, .modal-body .row > .col-md-6 > h4 {
+    margin: 0;
+    color: #434343;
+    font-weight: 600;
+}
+
+/* CONSOLE */
+#consoleContainer {
+    max-height: 100%;
+}
+
+#console p {
+    /*overflow-y: scroll;*/
+    /*height: inherit;*/
+}
+
+/* PROPERTIES */
+#properties .table-striped tr td:first-child{
+    font-weight: 600;
+    width: 10%;
+}
+
+#player{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+/* TABLES */
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background: linear-gradient(to bottom, #646464 0%, #6c6c6c 50%, #646464 100%);
+}
+.table-striped > tbody > tr:nth-of-type(2n) {
+    background: linear-gradient(to bottom, #7f7f7f 0%, #8b8b8b 50%, #7f7f7f 100%);
+}
+.table-striped > tbody > tr:nth-of-type(2n+1):hover {
+    background: linear-gradient(to bottom, #6d6d6d 0%, #7b7b7b 50%, #6d6d6d 100%);
+}
+.table-striped > tbody > tr:nth-of-type(2n):hover {
+    background: linear-gradient(to bottom, #898989 0%, #8b8b8b 50%, #898989 100%);
+}
+.table-striped, #infoTable, .table{
+    border: 1px solid #e3e3e3;
+    margin-bottom: 0;
+}
+
+.table{
+    background-color: #606060;
+    margin-bottom: 0;
+}
+.table thead{
+    background-color: #7f7f7f;
+    text-decoration: underline;
+}
+#infoContainer{
+    position: absolute;
+    bottom: 0;
+}
+#infoTable tr td{
+    border-top: 1px solid #e3e3e3;
+}
+/* TEMP */
+#robocodeContainer .widget-container {
+    /*background: url("../images/playfield.png");*/
+    /*background-position: left;*/
+    /*background-size: cover;*/
+}
+
+/*#robocodeContainer .widget-content {*/
+    /*display: none;*/
+/*}*/
+#robocodeContainer .widget-content canvas{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/NavalRobocode/ground/blue_metal_0.png");
+}
+
+
+/* MODAL */
+.modal-header{
+    background: linear-gradient(to bottom, #7c7c7c 0%, #a5a5a5 50%, #7c7c7c 100%);
+}
+.modal-header > h4{
+    color: #434343;
+    font-weight: 600;
+}
+.modal-dialog .modal-content{
+    background-color: #606060;
+    color: #e3e3e3;
+}
+.modal-body .col-md-6 > .widget-content{
+    background-color: #7f7f7f;
+}

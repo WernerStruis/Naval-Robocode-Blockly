@@ -1,4 +1,3 @@
-import NavalRobocode.NavalRobocode;
 import io.vertx.blockly.webapp.Server;
 
 /**
@@ -6,22 +5,15 @@ import io.vertx.blockly.webapp.Server;
  */
 public class Main {
     private Server server;
-    private NavalRobocode game;
 
     private Thread serverThread;
-//    private Thread gameThread;
 
     public Main(){
         server = new Server();
-        game = new NavalRobocode(false);
-
         serverThread = new Thread(server);
-//        gameThread = new Thread(game);
-
     }
     public void run(){
         serverThread.start();
-//        gameThread.start();
     }
 
     public static void main(String[]args){

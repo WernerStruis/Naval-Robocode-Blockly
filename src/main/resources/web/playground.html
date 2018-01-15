@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Naval Robocode</title>
+
+    <!-- jQuery .js -->
+    <script src="lib/jQuery-3.2.1/jquery-3.2.1.min.js"></script>
+
+    <!-- bootstrap .js -->
+    <script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap .css -->
+    <link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- easelJS -->
+    <script src="assets/js/livePlay/util/easeljs.js"></script>
+    <!-- utilities -->
+    <script src="assets/js/livePlay/util/dev/battleScript.js"></script>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/playground.css">
+
+    <script src="assets/js/livePlay/sockjs.js"></script>
+    <script src="assets/js/livePlay/WebSocket.js"></script>
+
+    <!-- canvas classes -->
+    <script src="assets/js/livePlay/classes/SnapShot.js"></script>
+    <script src="assets/js/livePlay/classes/Ship.js"></script>
+    <script src="assets/js/livePlay/classes/Bullet.js"></script>
+    <script src="assets/js/livePlay/classes/Component.js"></script>
+    <script src="assets/js/livePlay/classes/AttributeManager.js"></script>
+
+    <!-- js -->
+    <script src="assets/js/livePlay/SnapShotHandler.js"></script>
+    <script src="assets/js/newBattle.js"></script>
+</head>
+<body>
+<div id="Main">
+    <div class="container-fluid">
+        <div class="row button-row">
+            <div class="col-md-1">
+                <ul class="pull-left">
+                    <li>
+                        <button class="btn btn-success" data-tag="newGame" onclick="newGame()">Start new game
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-10 center">
+
+            </div>
+            <div class="col-md-1">
+                <ul class="pull-right">
+                    <li>
+                        <button class="btn btn-danger" data-tag="returnToBlockly" onclick="returnToBlockly()">Return to
+                            blockly
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row content">
+            <div class="col-md-3 section column">
+                <div class="widget" id="propertiesContainer">
+                    <div class="widget-container">
+                        <div class="widget-title">
+                            <h4>My Properties</h4>
+                        </div>
+                        <div class="widget-content" id="properties">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <td>energy:</td>
+                                    <td id="my_energy"> 0.0000</td>
+                                </tr>
+                                <tr>
+                                    <td>x:</td>
+                                    <td id="my_x"> 0.0000</td>
+                                </tr>
+                                <tr>
+                                    <td>y:</td>
+                                    <td id="my_y"> 0.0000</td>
+                                </tr>
+                                <tr>
+                                    <td>velocity:</td>
+                                    <td id="my_velocity"> 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>bodyHeading:</td>
+                                    <td id="my_bodyheading">rad: <span id="bodyheadingrad">0.0000</span> <br>deg: <span
+                                            id="bodyheadingdeg">0.0000</span></td>
+                                </tr>
+                                <tr>
+                                    <td>state:</td>
+                                    <td id="my_state">INACTIVE</td>
+                                </tr>
+                                <tr>
+                                    <td>type:</td>
+                                    <td id="my_type">NONE</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget" id="consoleContainer">
+                    <div class="widget-container">
+
+                        <div class="widget-title">
+                            <h4>My Score</h4>
+                        </div>
+                        <div class="widget-content" id="console">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <td>Total Score:</td>
+                                    <td id="score_total"> 0.0000</td>
+                                </tr>
+                                <tr>
+                                    <td>Current Score:</td>
+                                    <td id="score_current"> 0.0000</td>
+                                </tr>
+                                <tr>
+                                    <td>Bullet damage Score:</td>
+                                    <td id="score_damage"> 0.0000</td>
+                                </tr>
+                                <tr>
+                                    <td>Kill bonus:</td>
+                                    <td id="score_kill"> 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Survival score:</td>
+                                    <td id="score_survival"> 0.0</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 section column">
+                <div class="widget" id="robocodeContainer">
+                    <div class="widget-container">
+                        <div class="widget-title">
+                            <h4>Robocode</h4>
+                        </div>
+                        <div class="widget-content">
+                            <canvas id="robocanvas" width="2000" height="2000">
+
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 section column">
+                <div class="widget" id="selectedView">
+                    <div class="widget-container">
+
+                        <div class="widget-title">
+                            <h4 id="selectedOpponent">Opponents</h4>
+                        </div>
+                        <div class="widget-content" id="player">
+                            <table class="table table-striped table-hover">
+                                <tbody id="playerList">
+                                <tr>
+                                    <td>None</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget" id="infoContainer">
+                    <div class="widget-container">
+                        <div class="widget-title">
+                            <h4>Info</h4>
+                        </div>
+                        <div class="widget-content" id="info">
+                            <table class="table" id="infoTable">
+                                <tr>
+                                    <td>Version:</td>
+                                    <td>V2.0.0-SNAPSHOT</td>
+                                </tr>
+                                <tr>
+                                    <td>Date:</td>
+                                    <td id="info_date"> 12-12-2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Time:</td>
+                                    <td id="info_time"> 08:31</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="startNewBattleModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" data-tag="newGameTitle">Start a new game</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="widget-title">
+                                <h4 data-tag="selectOpponentsTitle">Opponents</h4>
+                            </div>
+                            <div class="widget-content">
+
+                                <p data-tag="selectOpponentsDescription">Here you will find all opponents avalible
+                                    to fight
+                                    your
+                                    ship.</p>
+
+                                <div class="selectionContainer">
+                                    <select name="opponents" multiple id="selectOpponents" size="10">
+                                    </select>
+                                </div>
+
+                                <div class="btn-row">
+                                    <button class="btn btn-success" data-tag="add" onclick="addOpponents()">Add
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="widget-title">
+
+                                <h4 data-tag="selectedOpponentsTitle">Selected</h4>
+                            </div>
+                            <div class="widget-content">
+
+                                <p data-tag="selectedOpponentsDescription">You selected the following opponents:</p>
+
+                                <div class="selectionContainer">
+                                    <select name="cars" multiple id="selectedOpponents" size="10">
+                                    </select>
+                                </div>
+
+                                <div class="btn-row">
+                                    <button class="btn btn-danger" data-tag="remove" onclick="removeOpponents()">
+                                        Remove
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" data-tag="close">Close
+                    </button>
+                    <button type="button" class="btn btn-success" data-tag="start" onclick="startBattle()">Start
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+</body>
+</html>

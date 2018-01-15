@@ -218,56 +218,68 @@ function returnToolbox(){
     $('#flyoutLogo').css('transform',  'translate(-' + $('.blocklyFlyout').width() + 'px, 0px)');
     $('#returnFlyoutBtn').css('transform', 'translate(-' + $('.blocklyFlyout').width() + 'px, 0px)');
 
+    Blockly.workspace_.toolbox_.clearSelection();
 
     $('.blocklyToolboxDiv').css('transform', 'translate(0px, 0px)');
 }
 
 function inPlaceToolbox(e) {
-    if(e.element){
-        if(e.element == 'category') {
-            if (!$('.blocklyFlyout').is(':visible')) {
-                console.log("Flyout closed");
-            } else {
-                var flyout = $('.blocklyFlyout');
-                var flyoutLogo = $('#flyoutLogo');
-                var returnBtn = $('#returnFlyoutBtn');
-                var toolbox = $('.blocklyToolboxDiv');
+    console.log(e);
+    if(e.varName) {
+        console.log("Variable added, returning");
+        returnToolbox();
+    }
+        if (e.element) {
+            if (e.element == 'category') {
+                if (!$('.blocklyFlyout').is(':visible')) {
+                    console.log("Flyout closed");
+                } else {
+                    if (e.newValue != null && !e.varName) {
+                        var flyout = $('.blocklyFlyout');
+                        var flyoutLogo = $('#flyoutLogo');
+                        var returnBtn = $('#returnFlyoutBtn');
+                        var toolbox = $('.blocklyToolboxDiv');
 
-                if ($('.blocklyTreeSelected').next().children().length == 0) {
-                    console.log("Flyout open");
-                    flyout.hide();
+                        if ($('.blocklyTreeSelected').next().children().length == 0) {
+                            var current_pull = parseInt(flyout.css('transform').split(',')[5]);
 
-                    //set flyout logo width to flyout width
-                    flyoutLogo.width(flyout.width() - 6).height($('.blocklyToolboxDiv img').height());
-                    //$('#flyoutLogo').css({top: 0, left:  0, position: 'absolute' });
+                            console.log(current_pull);
+                            console.log("Flyout open");
+                            flyout.hide();
 
-                    //move toolbox left out of screen
-                    toolbox.css('transform', 'translate(-' + toolbox.width() + 'px, 0px)');
-                    returnBtn.width(flyout.width() - 36);
+                            //set flyout logo width to flyout width
+                            flyoutLogo.width(flyout.width() - 6).height($('.blocklyToolboxDiv img').height());
+                            //$('#flyoutLogo').css({top: 0, left:  0, position: 'absolute' });
 
-                    //position flyout left below logo
-                    var translate = 'translate(0px, ' + (flyoutLogo.height() + 10) + 'px)';
+                            //move toolbox left out of screen
+                            toolbox.css('transform', 'translate(-' + toolbox.width() + 'px, 0px)');
+                            returnBtn.width(flyout.width() - 36);
 
-                    $('.blocklyFlyout .blocklyWorkspace').css('transform', translate);
-                    flyout.css('transform', 'translate(0px, 0px)');
-                    flyoutLogo.css('transform', 'translate(0px, 0px)');
-                    returnBtn.css('transform', 'translate(0px, 0px)');
+                            //position flyout left below logo
+                            var translate = 'translate(0px, ' + (flyoutLogo.height() + 10) + 'px)';
 
-                    //replace toolbox with flyout
-                    flyout.show();
-                }
-                /**
-                 * If flyout glitches, uncomment
-                 */
-                else {
-                    flyout.css('transform', 'translate(-' + flyout.width() + 'px, 0px)');
-                    flyoutLogo.css('transform', 'translate(-' + flyout.width() + 'px, 0px)');
-                    returnBtn.css('transform', 'translate(-' + flyout.width() + 'px, 0px)');
-                    toolbox.css('transform', 'translate(0px, 0px)');
+                            $('.blocklyFlyout .blocklyWorkspace').css('transform', translate);
+                            flyout.css('transform', 'translate(0px, 0px)');
+                            flyoutLogo.css('transform', 'translate(0px, 0px)');
+                            returnBtn.css('transform', 'translate(0px, 0px)');
+
+                            //replace toolbox with flyout
+                            flyout.show();
+                        }
+                        /**
+                         * If flyout glitches, uncomment
+                         */
+                        else {
+                            flyout.css('transform', 'translate(-' + flyout.width() + 'px, 0px)');
+                            flyoutLogo.css('transform', 'translate(-' + flyout.width() + 'px, 0px)');
+                            returnBtn.css('transform', 'translate(-' + flyout.width() + 'px, 0px)');
+                            toolbox.css('transform', 'translate(0px, 0px)');
+                        }
+                    }
                 }
             }
         }
-    }
+
 
 }
 
@@ -766,37 +778,55 @@ function send() {
     });
 }
 
+function testRobocode(){
+    if(validate()) {
+        window.location.replace('/robocode');
+    }
+}
+
+function storeBlocks(){
+    var shipConfig = JSON.parse(localStorage.getItem('SHIPCONFIG'));
+    if(shipConfig) {
+        shipConfig.xml = getShipXML();
+
+        localStorage.removeItem('SHIPCONFIG');
+        localStorage.setItem('SHIPCONFIG', JSON.stringify(shipConfig));
+    }
+}
 function startRobocode() {
+    storeBlocks();
+    if(validate()) {
+        generate(false);
 
-    generate(false);
+        console.log("starting robocode");
+        $('#loadingOverlay').show();
+        var url = "/robocode/upload";
+        var code = $('#publish-code').text();
 
-    console.log("starting robocode");
-    $('#loadingOverlay').show();
-    var url = "/robocode/start";
-    var code = $('#publish-code').text();
+        var json = {
+            code: code
+        };
 
-    var json = {
-        code: code
-    };
+        $.ajax({
+            type: "POST",
+            url: url,
+            contentType: "text/json;",
+            data: JSON.stringify(json),
+            statusCode: {
 
-    $.ajax({
-        type: "POST",
-        url: url,
-        contentType: "text/json;",
-        data: JSON.stringify(json),
-        statusCode: {
-
-            200: function (data) {
-                // Only if your server returns a 403 status code can it come in this block. :-)
-                $('#loadingOverlay').hide();
-                console.log(data);
-            },
-            500: function (data) {
-                $('#loadingOverlay').hide();
-                console.log(data);
+                200: function (data) {
+                    // Only if your server returns a 403 status code can it come in this block. :-)
+                    $('#loadingOverlay').hide();
+                    console.log(data);
+                    window.location.replace('/robocode');
+                },
+                500: function (data) {
+                    $('#loadingOverlay').hide();
+                    console.log(data);
+                }
             }
-        }
-    });
+        });
+    }
 }
 
 //function publish(){

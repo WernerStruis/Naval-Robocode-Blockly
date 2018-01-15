@@ -143,7 +143,7 @@ Blockly.Msg.ATTO_TOOLTIP = "";
 Blockly.Msg.ATRLEFT_TITLE = "Turn %1 Left with Angle: %2";
 Blockly.Msg.ATRLEFT_TOOLTIP = "";
 
-Blockly.Msg.FIRE_TITLE = "Fire  %1 with power %2";
+Blockly.Msg.FIRE_TITLE = "Fire  %1";
 Blockly.Msg.FIRE_TOOLTIP="";
 
 Blockly.Msg.LAUNCH_TITLE = "Launch %1 with power %2";
