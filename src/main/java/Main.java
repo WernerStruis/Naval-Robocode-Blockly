@@ -1,7 +1,7 @@
 import io.vertx.blockly.webapp.Server;
 
 /**
- * Created by dp038 on 12/8/17.
+ * @author Thales B.V. /Werner Struis
  */
 public class Main {
     private Server server;

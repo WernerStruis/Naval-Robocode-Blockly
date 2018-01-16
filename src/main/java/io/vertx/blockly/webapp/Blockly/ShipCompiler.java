@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Created by dp038 on 11/29/17.
+ * @author Thales B.V. /Werner Struis
  */
 public class ShipCompiler {
     private String fileDirectory = "files/";

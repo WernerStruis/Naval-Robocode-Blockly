@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BlocklyApp.iml" filepath="$PROJECT_DIR$/BlocklyApp.iml" />
-      <module fileurl="file:///nfs/fileb1015-home1011/dp038/Desktop/BlocklyApp/Naval-Robocode_V2-Blockly.iml" filepath="/nfs/fileb1015-home1011/dp038/Desktop/BlocklyApp/Naval-Robocode_V2-Blockly.iml" />
+      <module fileurl="file:///nfs/fileb1015-home1011/dp038/Desktop/Naval-Robocode-Blockly/Naval-Robocode-Blockly.iml" filepath="/nfs/fileb1015-home1011/dp038/Desktop/Naval-Robocode-Blockly/Naval-Robocode-Blockly.iml" />
     </modules>
   </component>
 </project>

@@ -15,7 +15,7 @@ import org.json.JSONObject;
 import org.json.XML;
 
 /**
- * Created by dp038 on 12/20/17.
+ * @author Thales B.V. /Werner Struis
  */
 public class SnapShotTransferer {
 

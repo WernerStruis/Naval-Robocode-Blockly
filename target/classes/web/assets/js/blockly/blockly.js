@@ -85,53 +85,6 @@ Blockly.blockly.changeLanguage = function () {
         window.location.host + window.location.pathname + search;
 };
 
-///**
-// * Bind a function to a button's click event.
-// * On touch enabled browsers, ontouchend is treated as equivalent to onclick.
-// * @param {!Element|string} el Button element or ID thereof.
-// * @param {!Function} func Event handler to bind.
-// */
-//Blockly.blockly.bindClick = function(el, func) {
-//    if (typeof el == 'string') {
-//        el = document.getElementById(el);
-//    }
-//    el.addEventListener('click', func, true);
-//    el.addEventListener('touchend', func, true);
-//};
-
-///**
-// * Load the Prettify CSS and JavaScript.
-// */
-//Blockly.blockly.importPrettify = function() {
-//    var script = document.createElement('script');
-//    script.setAttribute('src', 'https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js');
-//    document.head.appendChild(script);
-//};
-
-///**
-// * Compute the absolute coordinates and dimensions of an HTML element.
-// * @param {!Element} element Element to match.
-// * @return {!Object} Contains height, width, x, and y properties.
-// * @private
-// */
-//Blockly.blockly.getBBox_ = function(element) {
-//    var height = element.offsetHeight;
-//    var width = element.offsetWidth;
-//    var x = 0;
-//    var y = 0;
-//    do {
-//        x += element.offsetLeft;
-//        y += element.offsetTop;
-//        element = element.offsetParent;
-//    } while (element);
-//    return {
-//        height: height,
-//        width: width,
-//        x: x,
-//        y: y
-//    };
-//};
-
 /**
  * User's language (e.g. "en").
  * @type {string}
@@ -201,6 +154,20 @@ $('body').on('API', function () {
     // and the infinite loop detection function.
     Blockly.Java.addReservedWords('code,timeouts,checkTimeout');
     Blockly.Flyout.prototype.autoClose = false;
+    Blockly.Flyout.prototype.positionAt_ = function(width, height, x, y){
+        this.svgGroup_.setAttribute("width", width);
+        this.svgGroup_.setAttribute("height", height);
+        x = (x == 220) ? 0 : x;
+        var transform = 'translate(' + x + 'px,' + y + 'px)';
+        Blockly.utils.setCssTransform(this.svgGroup_, transform);
+
+        // Update the scrollbar (if one exists).
+        if (this.scrollbar_) {
+            // Set the scrollbars origin to be the top left of the flyout.
+            this.scrollbar_.setOrigin(x, y);
+            this.scrollbar_.resize();
+        }
+    }
 
     // Lazy-load the syntax-highlighting.
     window.setTimeout(Blockly.blockly.importPrettify, 1);
@@ -224,11 +191,6 @@ function returnToolbox(){
 }
 
 function inPlaceToolbox(e) {
-    console.log(e);
-    if(e.varName) {
-        console.log("Variable added, returning");
-        returnToolbox();
-    }
         if (e.element) {
             if (e.element == 'category') {
                 if (!$('.blocklyFlyout').is(':visible')) {

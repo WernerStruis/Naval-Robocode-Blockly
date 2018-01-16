@@ -22,7 +22,7 @@ import java.net.URISyntaxException;
 
 
 /**
- * Created by do601 on 3/17/17.
+ * @author Thales B.V. /Werner Struis
  */
 public class Server extends AbstractVerticle implements Runnable {
 

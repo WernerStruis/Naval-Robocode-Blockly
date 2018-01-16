@@ -7,7 +7,7 @@ import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpServer;
 
 /**
- * Created by dp038 on 12/20/17.
+ * @author Thales B.V. /Werner Struis
  */
 public class WebSocketHandler {
     private HttpServer server;

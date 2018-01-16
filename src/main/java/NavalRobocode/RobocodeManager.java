@@ -17,7 +17,7 @@ import java.util.concurrent.DelayQueue;
 import java.util.concurrent.SynchronousQueue;
 
 /**
- * Created by dp038 on 12/11/17.
+ * @author Thales B.V. /Werner Struis
  */
 public class RobocodeManager implements BlocklyCallBacks {
 
