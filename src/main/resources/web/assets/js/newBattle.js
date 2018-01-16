@@ -100,25 +100,28 @@ function startBattle() {
 
 function addOpponents() {
     var opponents = $('#selectOpponents').val();
-    console.log(opponents);
+    var currentItems = $('#selectedOpponents').find('option').length;
 
     if (opponents.length > 0) {
 
         opponents.forEach(function (opponent) {
-            var shipString = opponent;
-            var optionString = shipString;
-            var amount = 0;
+            if(currentItems < 5) {
+                var shipString = opponent;
+                var optionString = shipString;
+                var amount = 0;
 
-            $('#selectedOpponents').find('option').each(function () {
-                if (this.value == shipString) {
-                    amount++;
+                $('#selectedOpponents').find('option').each(function () {
+                    if (this.value == shipString) {
+                        amount++;
+                    }
+                });
+
+                if (amount > 0) {
+                    shipString += '(' + amount + ')';
                 }
-            });
-
-            if (amount > 0) {
-                shipString += '(' + amount + ')';
+                $('#selectedOpponents').append("<option value='" + optionString + "'>" + shipString + "</option>")
+                currentItems++;
             }
-            $('#selectedOpponents').append("<option value='" + optionString + "'>" + shipString + "</option>")
         })
     }
 }
