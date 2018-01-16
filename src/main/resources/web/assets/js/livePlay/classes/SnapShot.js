@@ -77,7 +77,7 @@ class SnapShot {
                 //if bullets contain, update
                 if (this.bullets.has(newBullets[i].id)) {
                     var bullet = this.bullets.get(newBullets[i].id);
-                    bullet.update(newBullets[i])
+                    bullet.update(newBullets[i]);
                     //else is new, add
                 } else {
                     this.bullets.set(newBullets[i].id, new Bullet(newBullets[i], this.canvas, this.width, this.height, this.debug));

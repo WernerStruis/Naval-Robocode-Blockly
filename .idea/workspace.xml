@@ -5,375 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0daa55-586e-4595-b164-d3a4ffeba88f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/AlphaMapFilter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/AlphaMaskFilter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/BitmapText.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/BlurFilter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/Ships/CARRIER.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/Ships/CORVETTE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/Ships/CRUISER.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/ColorFilter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/ColorMatrixFilter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/components/DOUBLE_BARREL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Fonts/assets/Dorsa-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Fonts/assets/Dorsa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Fonts/assets/DorsaPreview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/docs/EaselJS_docs.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Fonts/assets/FontCollection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/components/LONG_RANGE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/components/MINE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/components/MISSILE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/PrelaodJSLoadedBitmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/components/SHORT_RANGE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/components/SINGLE_BARREL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/Shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/SpriteSheetBuilder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/Text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/arc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/arcTo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/beginBitmapFill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/beginBitmapStroke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/beginLinearGradientFill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/beginLinearGradientStroke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/beginRadialGradientFill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/beginRadialGradientStroke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/bezierCurveTo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/audio/bionic.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/ground/blue_metal_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/break.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/break.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/Ships/carrier-body.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/Ships/corvette-body.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/images/NavalRobocode/Ships/cruiser-body.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/daisy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/death.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/death.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/decodePath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/docs-icon-EaselJS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/drawCircle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/drawEllipse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/drawPolyStar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/drawRect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/drawRoundRect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/drawRoundRectComplex.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/easeljs-banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/docs/easeljs_docs-NEXT.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/flowers.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/gotoAndPlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/gotoAndStop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/ground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/hill1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/hill2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/jasmine_favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/lineTo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/music.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/music.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/quadraticCurveTo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robojs/robojs9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/robot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/setStrokeDash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/assets/setStrokeStyle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/shot.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/shot.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/sky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/spawn.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/sounds/spawn.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/spritesheet_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/spritesheet_font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/spritesheet_grant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/spritesheet_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/spritesheet_sparkle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/tmw_desert_spacing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/APITest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/AlphaMapFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/AlphaMaskFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/AlphaMaskReveal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/AttributeManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/BANNER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/BarGraph.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/Benchmark.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Bitmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/BitmapCache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/BitmapText.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/BitmapText.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Routes/BlocklyRoutes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/BlurFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Bullet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/ButtonHelper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/ui/ButtonHelper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Cache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Cache_update.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Cache_vday.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/ColorFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/ColorMatrix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/ColorMatrixFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/NavalRobocode/CompilerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/Context2DLog/Context2DLog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/CurveTo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/DOMElement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/DOMElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/DeprecatedSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/DisplayListSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/DisplayObject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/geom/DisplayProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/DoubleClickTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/DragAndDrop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/DragAndDrop_hitArea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/events/Event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/EventBubbling.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/events/EventDispatcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/EventsSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/FauxCanvas/FauxCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/filters/Filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/FilterSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Filters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/Filters_GL-C2D.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/Filters_GL-GL.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Filters_animated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Filters_input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Filters_simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/Game.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/GlobalToLocal1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/GlobalToLocal2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Graphics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/GraphicsReuse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/GraphicsSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/GraphicsTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/GraphicsTestTiny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Graphics_setStrokeDash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Graphics_simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Graphics_winding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/HelloWorld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/HelloWorld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/Helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Icons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/LocalToGlobal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/MIT-LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/MIT.LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Masks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/geom/Matrix2D.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20171018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/events/MouseEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/MovieClip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/MovieClip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/MovieClipSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Fonts/assets/OFL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/geom/Point.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/updates/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/Context2DLog/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/FauxCanvas/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/reports/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/lib/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/README_SECURITY_ERROR.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/geom/Rectangle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/vertx/RequestHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Routes/RoboRoutes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NavalRobocode/RobocodeManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/RollOverMouseOver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/Runners.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Shadow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Ship.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/Ship.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/js/Slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/SnapShotHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/SnapShotTransferer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Game/SpaceRock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Sparkles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/Sparkles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Sprite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/SpriteSheet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/SpriteSheet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/SpriteSheetBuilder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/utils/SpriteSheetBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/SpriteSheetBuilderMC/SpriteSheetBuilder_MovieClip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/utils/SpriteSheetUtils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/SpriteSheet_simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/SpriteSheet_tileset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Stage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/StageGL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/StageGLSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/SystemInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/display/Text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Text_links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Text_multiline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Text_simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/Filters/ThresholdFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/utils/Ticker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/ui/Touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Transform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/Transform_simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/TwoStages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/WebGL/TwoStages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/utils/UID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/spec/UtilityMethodsSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/VERSIONS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/VectorButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/utils/VideoBuffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/utils/WebGLInspector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/WebSocket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/vertx/WebSocketHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/addRemoveChild.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/anchors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/attrs.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/backToTop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/util/dev/battleScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/bitmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/boot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/settings/breakpoint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/utilities/breakpoint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/updates/builder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/classes.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/utilities/clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/codebox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/codemirror_controls.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/settings/color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/libs/dat.gui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/utils/deprecate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/displayList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/lib/easeljs-NEXT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/lib/easeljs-NEXT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/util/easeljs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/lib/easeljs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/lib/easeljs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/events.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/Context2DLog/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/FauxCanvas/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/css/examples.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/js/examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/utils/extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/forms/fieldset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/files.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/filters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/settings/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/forms/forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/graphics1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/graphics2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/examples/SpriteSheetBuilderMC/gunnertron_g.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/index.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Animation and Ticker/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/utils/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/forms/input.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/lib/jasmine-2.0.2/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/forms/labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/settings/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/library-specific.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/tasks/listips.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/art/logo_createjs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/layouts/main.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/matrix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/method.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/module.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/newBattle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Animation and Ticker/onTick.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/options.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/settings/path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Animation and Ticker/pausing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/perfFramework.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/css/playground.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/playground.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/libs/preloadjs-NEXT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/css/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/js/prism.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/createjs/utils/promote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/props.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shBrushJScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shBrushXml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shThemeCreateJS.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/_shared/SyntaxHighlighter/shThemeEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/css/shared.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/partials/sidebar.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Animation and Ticker/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/sockjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/libs/soundjs-NEXT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/sprites.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/libs/stats.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tests/styles/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/reports/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/tags.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/testPackage/testShip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/testPackage/testShipBad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/theme.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/extras/PerformanceTests/tick.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/tutorials/Animation and Ticker/timeBased.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/settings/transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/scss/elements/transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/_assets/libs/tweenjs-NEXT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/tasks/updatebower.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/tasks/updateversion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/src/easeljs/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/layouts/xhr.handlebars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/css/yui-cssgrids-min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/EaselJS-master/build/createjsTheme/assets/js/yui-source.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/dsfs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/dsfs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/testPackage/myShip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/testPackage/myShip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots/BlocklyShips/myShip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots/BlocklyShips/myShip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots/Test/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots/Test/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots/testPackage/myShip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robots/testPackage/myShip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/NavalRobocode/NavalRobocode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/SecuirityManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Routes/NavalRoutes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Routes/Routes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/NavalRobocode/NavalRobocode.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Compiler/ShipCompiler.java" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/ShipCompiler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Compiler/TransferThread.java" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/TransferThread.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BlocklyApp-1.0-SNAPSHOT-fat.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BlocklyApp-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/images/Blockly-logo.png" afterPath="$PROJECT_DIR$/target/classes/web/assets/images/Blockly-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/BlocklyApp-1.0-SNAPSHOT-fat.jar" afterPath="$PROJECT_DIR$/target/BlocklyApp-1.0-SNAPSHOT-fat.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/BlocklyApp-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/BlocklyApp-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/images/specialComponents/MComponent.png" afterPath="$PROJECT_DIR$/target/classes/web/assets/images/specialComponents/MComponent.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/images/specialComponents/MissileComponent.png" afterPath="$PROJECT_DIR$/target/classes/web/assets/images/specialComponents/MissileComponent.png" />
@@ -390,10 +24,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/images/RadarTypes/radar-short.png" afterPath="$PROJECT_DIR$/target/classes/web/assets/images/RadarTypes/radar-short.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/images/CannonTypes/turretdouble.png" afterPath="$PROJECT_DIR$/target/classes/web/assets/images/CannonTypes/turretdouble.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/images/CannonTypes/turretsingle.png" afterPath="$PROJECT_DIR$/target/classes/web/assets/images/CannonTypes/turretsingle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlocklyApp.iml" afterPath="$PROJECT_DIR$/BlocklyApp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Server.java" afterPath="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_animated.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_core.scss" />
@@ -409,7 +41,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/scss/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/animated.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/animated.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/blockly.js" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/blockly.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/js/blockly/blockly.js" afterPath="$PROJECT_DIR$/target/classes/web/assets/js/blockly/blockly.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/css/bootstrap-theme.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/css/bootstrap-theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" />
@@ -425,11 +56,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/compile/compile.sh" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/compile/compile.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/core.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/core.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/create_messages.py" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/create_messages.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/dedup_json.py" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/dedup_json.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/msg/js/en.js" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/msg/js/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/blockly/msg/js/en.js" afterPath="$PROJECT_DIR$/target/classes/web/assets/blockly/msg/js/en.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_base.js" afterPath="$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/css/font-awesome.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/font-awesome.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
@@ -440,8 +69,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/get_selenium.sh" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/get_selenium.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/icons.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/jQuery-3.2.1/jquery-ui.min.js" afterPath="$PROJECT_DIR$/target/classes/web/lib/jQuery-3.2.1/jquery-ui.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/jQuery-3.2.1/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/target/classes/web/lib/jQuery-3.2.1/jquery.ui.touch-punch.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/js_to_json.py" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/js_to_json.py" />
@@ -449,9 +76,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/larger.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/larger.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/list.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/list.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/msg/js/nl.js" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/msg/js/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/blockly/msg/js/nl.js" afterPath="$PROJECT_DIR$/target/classes/web/assets/blockly/msg/js/nl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/js/npm.js" afterPath="$PROJECT_DIR$/target/classes/web/lib/bootstrap-3.3.7/js/npm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/path.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/path.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
@@ -463,16 +87,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/selenium_connect.sh" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/selenium_connect.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/setup_linux_env.sh" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/setup_linux_env.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/setup_osx_env.sh" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/setup_osx_env.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/blocks/Beginner/slots.js" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/blocks/Beginner/slots.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/blocks/Intermediate/slots.js" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/blockly/blocks/Intermediate/slots.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/blockly/blocks/Beginner/slots.js" afterPath="$PROJECT_DIR$/target/classes/web/assets/blockly/blocks/Beginner/slots.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/blockly/blocks/Intermediate/slots.js" afterPath="$PROJECT_DIR$/target/classes/web/assets/blockly/blocks/Intermediate/slots.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/web/assets/css/style.css" afterPath="$PROJECT_DIR$/src/main/resources/web/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/css/style.css" afterPath="$PROJECT_DIR$/target/classes/web/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/test_setup.sh" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/tests/scripts/test_setup.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/variables.less" afterPath="$PROJECT_DIR$/target/classes/web/assets/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/window.properties" afterPath="$PROJECT_DIR$/config/window.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/xliff_to_json.py" afterPath="$PROJECT_DIR$/target/classes/web/lib/google-blockly-2fae551/i18n/xliff_to_json.py" />
     </list>
@@ -501,21 +118,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SnapShot.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js">
+      <file leaf-file-name="SnapShotTransferer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/SnapShotTransferer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSocket.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/WebSocket.js">
+      <file leaf-file-name="Naval-Robocode_V2-Blockly.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Naval-Robocode_V2-Blockly.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87348354">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlocklyApp.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BlocklyApp.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu-touch.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/menu-touch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dynamic_toolbox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/dynamic_toolbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blockly.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/blockly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48793104">
+              <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+              <folding>
+                <marker date="1516097344550" expanded="true" signature="5912:5924" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flyout_base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.166667">
+              <caret line="397" column="3" selection-start-line="387" selection-start-column="2" selection-end-line="397" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toolbox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/toolbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="270" column="20" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flyout_horizontal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_horizontal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="201" column="12" selection-start-line="201" selection-start-column="12" selection-end-line="201" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -545,7 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/APIManager.js" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/dynamic_toolbox.js" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/blockly/variables.js" />
         <option value="$PROJECT_DIR$/src/main/java/SecuirityManager.java" />
@@ -559,7 +259,6 @@
         <option value="$MAVEN_REPOSITORY$/net/sf/robocode/robocode.api/2.0.0-SNAPSHOT/robocode.api-2.0.0-SNAPSHOT.jar!/net/sf/robocode/security/HiddenAccess.class" />
         <option value="$PROJECT_DIR$/src/main/resources/web/workspace.html" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/blockly.js" />
         <option value="$PROJECT_DIR$/src/test/resources/testShip.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testPackage/testShipBad.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/ShipCompiler.java" />
@@ -576,7 +275,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/blockly/msg/js/en.js" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/blockly/blocks/Intermediate/slots.js" />
         <option value="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Server.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/TurnSnapshot.class" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/css/wizard/setComponents.css" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/util/dev/battleScript.js" />
@@ -589,13 +287,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/newBattle.js" />
         <option value="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Routes/RoboRoutes.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/vertx/WebSocketHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Ship.js" />
-        <option value="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/SnapShotTransferer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Bullet.js" />
         <option value="$MAVEN_REPOSITORY$/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class" />
         <option value="$PROJECT_DIR$/src/main/java/NavalRobocode/RobocodeManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js" />
         <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/WebSocket.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Ship.js" />
+        <option value="$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/SnapShotTransferer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_base.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/blockly.js" />
       </list>
     </option>
   </component>
@@ -623,7 +324,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="BlocklyApp" />
+          <option name="myItemId" value="Naval-Robocode-Blockly" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -633,7 +334,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="BlocklyApp" />
+          <option name="myItemId" value="Naval-Robocode-Blockly" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -657,9 +358,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
     <option name="y" value="25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1030" />
+    <option name="width" value="1924" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -684,9 +386,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -702,6 +402,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlocklyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -742,6 +456,108 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlocklyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlocklyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-blockly-2fae551" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlocklyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-blockly-2fae551" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -888,6 +704,78 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlocklyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlocklyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naval-Robocode-Blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blockly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -973,90 +861,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vertx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlocklyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Naval-Robocode-Blockly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlocklyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Naval-Robocode-Blockly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlocklyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Naval-Robocode-Blockly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testPackage" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1077,7 +889,7 @@
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Exter&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class&#10;Robo&#9;FILE&#9;file:///home/dp038/Desktop/Naval-Robocode-Blockly/src/main/java/NavalRobocode/RobocodeManager.java&#10;externalMa&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class&#10;sou&#9;null&#9;null&#10;ShipSna&#9;PSI&#9;JAVA://net.sf.robocode.battle.snapshot.ShipSnapshot&#10;TurnSna&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/TurnSnapshot.class&#10;TurnSn&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/TurnSnapshot.class&#10;bulletst&#9;PSI&#9;JAVA://robocode.control.snapshot.BulletState&#10;BattlePr&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/BattleProperties.class&#10;BattleProperti&#9;PSI&#9;JAVA://net.sf.robocode.battle.BattleProperties&#10;BattleView&#9;PSI&#9;JAVA://net.sf.robocode.ui.battleview.BattleView&#10;battleview&#9;PSI&#9;JAVA://net.sf.robocode.ui.battleview.BattleView&#10;wo&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/resources/web/workspace.html&#10;robocodeMain&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/RobocodeMainBase.class&#10;tra&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/resources/web/assets/js/translate.js&#10;sty&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/resources/web/assets/css/style.css&#10;NavalRo&#9;PSI&#9;JAVA://NavalRobocode.NavalRobocode&#10;NavalR&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/java/NavalRobocode/NavalRobocode.java" />
+    <property name="SearchEverywhereHistoryKey" value="returnTool&#9;null&#9;null&#10;Component&#9;FILE&#9;file:///home/dp038/Desktop/Naval-Robocode-Blockly/src/main/resources/web/assets/js/livePlay/classes/Component.js&#10;Bullet&#9;FILE&#9;file:///home/dp038/Desktop/Naval-Robocode-Blockly/src/main/resources/web/assets/js/livePlay/classes/Bullet.js&#10;Ship&#9;FILE&#9;file:///home/dp038/Desktop/Naval-Robocode-Blockly/src/main/resources/web/assets/js/livePlay/classes/Ship.js&#10;BattleView&#9;PSI&#9;JAVA://net.sf.robocode.ui.battleview.BattleView&#10;External&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class&#10;Exter&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class&#10;Robo&#9;FILE&#9;file:///home/dp038/Desktop/Naval-Robocode-Blockly/src/main/java/NavalRobocode/RobocodeManager.java&#10;externalMa&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class&#10;sou&#9;null&#9;null&#10;ShipSna&#9;PSI&#9;JAVA://net.sf.robocode.battle.snapshot.ShipSnapshot&#10;TurnSna&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/TurnSnapshot.class&#10;TurnSn&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/TurnSnapshot.class&#10;bulletst&#9;PSI&#9;JAVA://robocode.control.snapshot.BulletState&#10;BattlePr&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/BattleProperties.class&#10;BattleProperti&#9;PSI&#9;JAVA://net.sf.robocode.battle.BattleProperties&#10;battleview&#9;PSI&#9;JAVA://net.sf.robocode.ui.battleview.BattleView&#10;wo&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/resources/web/workspace.html&#10;robocodeMain&#9;FILE&#9;jar:///nfs/fileb1015-home1011/dp038/.m2/repository/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/RobocodeMainBase.class&#10;tra&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/resources/web/assets/js/translate.js&#10;sty&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/resources/web/assets/css/style.css&#10;NavalRo&#9;PSI&#9;JAVA://NavalRobocode.NavalRobocode&#10;NavalR&#9;FILE&#9;file:///home/dp038/Desktop/BlocklyApp/src/main/java/NavalRobocode/NavalRobocode.java" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
@@ -1459,10 +1271,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CompilerTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Server" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CompilerTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Server" />
         <item index="4" class="java.lang.String" itemvalue="JAR Application.BlocklyApp-1.0-SNAPSHOT-fat.jar" />
       </list>
     </recent_temporary>
@@ -1521,7 +1333,8 @@
       <workItem from="1515663615390" duration="1860000" />
       <workItem from="1515666154964" duration="10208000" />
       <workItem from="1515745815448" duration="11066000" />
-      <workItem from="1516014010496" duration="6545000" />
+      <workItem from="1516014010496" duration="11604000" />
+      <workItem from="1516092376702" duration="3404000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1512727442002</created>
@@ -1529,14 +1342,20 @@
       <option name="project" value="LOCAL" />
       <updated>1512727442002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed:&#10;- Starting the RC-engine sometimes failes.&#10;- Bullets were not removed&#10;- Starting a game during a game messes up.">
+      <created>1516020787414</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516020787414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266762000" />
+    <option name="totallyTimeSpent" value="275225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1030" extended-state="0" />
+    <frame x="-2" y="25" width="1924" height="1034" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1545,15 +1364,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28806135" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13927428" sideWeight="0.49272728" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1400426" sideWeight="0.49272728" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.46698615" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33296824" sideWeight="0.46698615" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711306" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23159018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23109691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28712872" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28696606" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1579,7 +1398,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fixed:&#10;- Starting the RC-engine sometimes failes.&#10;- Bullets were not removed&#10;- Starting a game during a game messes up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed:&#10;- Starting the RC-engine sometimes failes.&#10;- Bullets were not removed&#10;- Starting a game during a game messes up." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1592,63 +1412,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NavalRobocode/RobocodeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/newBattle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/TransferThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45840406">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/vertx/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/TurnSnapshot.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="202" column="50" selection-start-line="202" selection-start-column="50" selection-end-line="202" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/sf/robocode/robocode.battle/2.0.0-SNAPSHOT/robocode.battle-2.0.0-SNAPSHOT.jar!/net/sf/robocode/battle/snapshot/ShipSnapshot.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="154" column="45" selection-start-line="154" selection-start-column="45" selection-end-line="154" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1751,14 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="14" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1821,74 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/newBattle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Ship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/SnapShotTransferer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <marker date="1516016433672" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Bullet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/SnapShotHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.857142">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23916811">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/vertx/WebSocketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27036396">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Routes/RoboRoutes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68804157">
@@ -1897,10 +1587,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/robocode/robocode.core/2.0.0-SNAPSHOT/robocode.core-2.0.0-SNAPSHOT.jar!/net/sf/robocode/core/ExternalManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.5">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/robocode/robocode.ui/2.0.0-SNAPSHOT/robocode.ui-2.0.0-SNAPSHOT.jar!/net/sf/robocode/ui/battleview/BattleView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.571428">
+          <caret line="213" column="78" selection-start-line="213" selection-start-column="78" selection-end-line="213" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/vertx/WebSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31724137">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NavalRobocode/RobocodeManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28076255">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="5" selection-start-line="71" selection-start-column="34" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#4780#4781#0" expanded="false" />
+            <element signature="e#4825#4826#0" expanded="false" />
+            <element signature="e#5298#5299#0" expanded="false" />
+            <element signature="e#5349#5350#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/newBattle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/WebSocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/SnapShotHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41034484">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Bullet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7827586">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1908,16 +1662,124 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/SnapShot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/WebSocket.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Ship.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87348354">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/livePlay/classes/Component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="94" selection-start-line="18" selection-start-column="7" selection-end-line="20" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/vertx/blockly/webapp/Blockly/SnapShotTransferer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlocklyApp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Naval-Robocode_V2-Blockly.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/menu-touch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/dynamic_toolbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/toolbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="270" column="20" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_horizontal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="201" column="12" selection-start-line="201" selection-start-column="12" selection-end-line="201" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/lib/google-blockly-2fae551/core/flyout_base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.166667">
+          <caret line="397" column="3" selection-start-line="387" selection-start-column="2" selection-end-line="397" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web/assets/js/blockly/blockly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48793104">
+          <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+          <folding>
+            <marker date="1516097344550" expanded="true" signature="5912:5924" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
